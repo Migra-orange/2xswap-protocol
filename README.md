@@ -79,12 +79,21 @@ Profit share is determined at the moment a position is opened, based on **pool u
 ```
 
 ## Development
-Install dependencies:
+
+### Install dependencies
+```
 npm install
-Run tests:
+```
+
+### Run tests
+```
 npx hardhat test
-Run gas report:
+```
+
+### Run gas report
+```
 REPORT_GAS=true npx hardhat test
+```
 
 ## Contributing
 
