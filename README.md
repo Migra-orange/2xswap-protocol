@@ -62,21 +62,21 @@ Profit share is determined at the moment a position is opened, based on **pool u
 | 92–94%      | Overload   | 60 : 40     |
 | >94%        | Critical   | 50 : 50     |
 
----
 
 ## Repository Structure
 
+```
 2xswap-protocol/
 ├── contracts/
 ├── test/
 ├── scripts/
 └── docs/
-  └── specs/
-   ├── profit-share-spec.md
-   ├── settlement-spec.md
-   ├── position-nft-spec.md
-   └── utilization-spec.md
-
+    └── specs/
+        ├── profit-share-spec.md
+        ├── settlement-spec.md
+        ├── position-nft-spec.md
+        └── utilization-spec.md
+```
 
 ## Development
 Install dependencies:
