@@ -1,0 +1,32 @@
+{
+  "name": "2xswap-protocol",
+  "version": "1.0.0",
+  "description": "A decentralized co-investment protocol with **dynamic profit sharing**, **unified B-side liquidity pool**, and **liquidation-free leverage** for crypto and tokenized real-world assets (RWAs).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Migra-orange/2xswap-protocol.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Migra-orange/2xswap-protocol/issues"
+  },
+  "homepage": "https://github.com/Migra-orange/2xswap-protocol#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "chai": "^4.5.0",
+    "ethers": "^6.15.0",
+    "hardhat": "^3.0.15"
+  }
+}
