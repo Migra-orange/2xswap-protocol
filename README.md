@@ -6,6 +6,25 @@ A decentralized co-investment protocol with **dynamic profit sharing**, **unifie
 **A (Initiator)** and **B (Capital Provider)** — co-invest into real on-chain assets.  
 Profits are shared according to a **utilization-based ratio**, and positions never face forced liquidation.
 
+## Quick start (no terminal required)
+
+1) Test the PriceOracle contract in your browser using Remix:
+   - Open https://remix.ethereum.org
+   - Create a new file `contracts/PriceOracle.sol` and paste the contract code from this PR.
+   - In the "Solidity Compiler" panel, compile `PriceOracle.sol`.
+   - In "Deploy & Run Transactions" choose environment `JavaScript VM` and press `Deploy`.
+   - Use `setPrice` (owner) with a sample asset address `0x000000000000000000000000000000000000abcd` and value `2500e18` and then call `getPrice` with the same asset to verify.
+
+2) Or add files via GitHub web UI:
+   - In the repo, click "Add file" → "Create new file".
+   - Create `contracts/PriceOracle.sol` and paste the contract code from this PR. Commit.
+
+3) Next recommended step (optional): add `ERC20Mock.sol` and `MockSwapRouter.sol` for local testing or unit tests.
+
+---
+
+This PR also adds a minimal PriceOracle contract in `contracts/PriceOracle.sol` to allow quick manual testing and to serve as a seed for future development.
+
 ## Key Features
 
 - **Liquidation-Free Leverage** – positions stay open until voluntary close or maturity  
